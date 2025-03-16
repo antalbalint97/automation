@@ -53,7 +53,7 @@ Important: Use a Gmail App Password instead of your real password.
 # Build and Run the Docker Container
 Build the Image
 ```
-docker build -t otp_scraper .
+docker build -t otp_scraper
 ```
 Run the Container
 ```
