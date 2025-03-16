@@ -17,7 +17,7 @@ Currently, it includes the OTP Gépkocsinyeremény Scraper, which:
  │── scripts               # Stores scripts for automation
  │   ├── gepkocsi_betet.py
  │   ├── run_nyeremenybetet_script_mail.sh
- │── automation               # Mail sending client & Task Scheduler Powershell code
+ │── automation            # Mail sending client & Task Scheduler Powershell code
  │   ├── nyeremenybetet-idozito.ps1
  │   ├── msmtprc
  │── README.md
