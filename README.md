@@ -11,13 +11,13 @@ Currently, it includes the OTP Gépkocsinyeremény Scraper, which:
 - Is fully automated with PowerShell + Task Scheduler on Windows
 
 ``` otp_gepkocsinyeremeny/
- │── docker/
+ │── docker/               # Stores docker image and requirements.txt
  │   ├── Dockerfile
  │   ├── requirements.txt
- │── scripts
+ │── scripts               # Stores scripts for automation
  │   ├── gepkocsi_betet.py
  │   ├── run_nyeremenybetet_script_mail.sh
- │── automation
+ │── automation               # Mail sending client & Task Scheduler Powershell code
  │   ├── nyeremenybetet-idozito.ps1
  │   ├── msmtprc
  │── README.md
