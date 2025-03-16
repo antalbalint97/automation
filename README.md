@@ -10,16 +10,16 @@ Currently, it includes the OTP Gépkocsinyeremény Scraper, which:
 - Logs results and sends an email notification via msmtp + Gmail App Password
 - Is fully automated with PowerShell + Task Scheduler on Windows
 
- """ otp_gepkocsinyeremeny
- ┣ docker
- ┃ ┣ Dockerfile
- ┃ ┣ requirements.txt
- ┣ scripts
- ┃ ┣ gepkocsi_betet.py
- ┃ ┗ run_nyeremenybetet_script_mail.sh
- ┣ automation
- ┃ ┣ nyeremenybetet-idozito.ps1
- ┃ ┗ msmtprc
- ┣ README.md
- ┗ .gitignore
-
+``` otp_gepkocsinyeremeny/
+ │── docker/
+ │   ├── Dockerfile
+ │   ├── requirements.txt
+ │── scripts
+ │   ├── gepkocsi_betet.py
+ │   ├── run_nyeremenybetet_script_mail.sh
+ │── automation
+ │   ├── nyeremenybetet-idozito.ps1
+ │   ├── msmtprc
+ │── README.md
+ │── .gitignore
+```
